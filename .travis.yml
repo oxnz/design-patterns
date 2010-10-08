@@ -1,0 +1,4 @@
+language: java
+
+script:
+  - cd src/java && mvn test
