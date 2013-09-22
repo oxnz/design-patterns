@@ -5,10 +5,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [30.5370024, 114.3620751]
+        "coordinates": [114.3620751, 30.5370024]
       },
       "properties": {
-        "prop0": "value0"
+        "Me": "Wuhan University"
       }
     },
     {
@@ -16,7 +16,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [102.0, 0.0], [103.0, 1.0], [104.0, 0.0], [105.0, 1.0]
+          [114.0, 0.0], [114.0, 1.0], [114.0, 0.0], [115.0, 1.0]
         ]
       },
       "properties": {
