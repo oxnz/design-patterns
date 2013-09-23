@@ -1,4 +1,10 @@
 # Copyright (c) 2013 oxnz, All rights reserved.
+#
+# Version:	1.0
+# Revision:	---
+# Author:	oxnz <yunxinyi@gmail.com>
+
+
 SUBDIRS =	\
 abstract-factory	\
 adapt	\
@@ -32,4 +38,8 @@ clean:
 		do $(MAKE) -C $$dir/cpp clean || exit 1;	\
 		done
 
-.PHONY: clean
+update: Readme.md
+	@find . -type d -depth 1 -exec basename {} \; | sed -e '1d' >> Readme.md
+
+
+.PHONY: update clean
