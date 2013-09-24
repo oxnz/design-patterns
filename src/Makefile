@@ -6,13 +6,16 @@
 
 
 SUBDIRS =	\
+private-class-data	\
+null-object	\
+iterator	\
 template	\
 observer	\
 state	\
 memento	\
 mediator	\
 abstract-factory	\
-adapt	\
+adapter	\
 bridge	\
 builder	\
 chain-of-responsibility	\
