@@ -13,12 +13,16 @@ function add_pattern() {
 	fi
 
 	mkdir -p $1/cpp
+	mkdir -p $1/java
 	touch $1/$1.md
 	cp ./Makefile.template $1/cpp/Makefile
 	cp ./main.cc.template $1/cpp/main.cc
+	cp ./build.xml.template $1/java/build.xml
+	cp ./Test.java.template $1/java/Test.java
 	sed -i -e "/^SUBDIR/ a\\
 		$1	\\\\
 		" Makefile
+	unlink Makefile-e
 }
 
 
