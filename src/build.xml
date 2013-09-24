@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<project name="design-patterns-java">
+	<target name="clean">
+	</target>
+</project>

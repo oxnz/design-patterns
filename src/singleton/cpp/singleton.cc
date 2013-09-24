@@ -6,30 +6,16 @@ Singleton::Singleton()
 	std::cout << "Singleton Constructor" << std::endl;
 }
 
-Singleton::~Singleton()
-{
-	std::cout << "Singleton Destructor" << std::endl;
-	// delete instance;
-}
-
-// Init static member
-
-/* Singleton* Singleton::GetInstance()
-{
-	if (NULL == instance)
-		instance = new Singleton();
-	return instance;
-} */
-
-Singleton* Singleton::instance = new Singleton;
+Singleton* Singleton::_instance = 0;
 
 Singleton* Singleton::GetInstance()
 {
-	return instance;
+	if (0 == _instance)
+		_instance = new Singleton();
+	return _instance;
 }
 
 // setter & getter
-
 int Singleton::getVar()
 {
 	return this->var;
@@ -38,4 +24,12 @@ int Singleton::getVar()
 void Singleton::setVar(int var)
 {
 	this->var = var;
+}
+
+Singleton::~Singleton()
+{
+	std::cout << "Singleton Destructor" << std::endl;
+	if (0 != _instance) {
+		_instance = 0;
+	}
 }
