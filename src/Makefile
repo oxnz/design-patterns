@@ -6,6 +6,8 @@
 
 
 SUBDIRS =	\
+state	\
+memento	\
 mediator	\
 abstract-factory	\
 adapt	\
