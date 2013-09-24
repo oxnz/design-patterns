@@ -6,6 +6,7 @@
 
 
 SUBDIRS =	\
+mediator	\
 abstract-factory	\
 adapt	\
 bridge	\
