@@ -2,17 +2,29 @@
 
 ##Finished Patterns:
 
-* Proxy
-* Singleton
-* decorator
-* composite
+* abstract-factory
+* adapter
 * bridge
-* adapt
-
-##Un-Added Patterns
-
-* Abstract Factory
-* Builder
-* Factory Method
-* Object Pool
-* Prototype
+* builder
+* chain-of-responsibility
+* command	cpp+java
+* composite
+* decorator
+* facade	cpp+java
+* factory-method
+* flyweight
+* interpreter
+* iterator
+* mediator
+* memento
+* null-object
+* observer	cpp+java
+* private-class-data
+* prototype
+* proxy	cpp+java
+* simple-factory
+* singleton
+* state
+* strategy
+* template
+* visitor

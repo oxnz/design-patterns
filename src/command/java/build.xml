@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Proxy" default="test" basedir=".">
+<project name="Command" default="test" basedir=".">
 	<!-- set global properties for this build -->
 	<property name="charset" value="UTF-8" />
 	<property name="src" value="." />
