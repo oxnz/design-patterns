@@ -6,6 +6,8 @@
 
 
 SUBDIRS =	\
+template	\
+observer	\
 state	\
 memento	\
 mediator	\

@@ -18,7 +18,7 @@ function add_pattern() {
 	cp ./main.cc.template $1/cpp/main.cc
 	sed -i -e "/^SUBDIR/ a\\
 		$1	\\\\
-	" Makefile
+		" Makefile
 }
 
 
