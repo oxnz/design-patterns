@@ -9,12 +9,22 @@ SUBDIRS =	\
 abstract-factory	\
 adapt	\
 bridge	\
+builder	\
+chain-of-responsibility	\
+command	\
 composite	\
 decorator	\
+facade	\
 factory-method	\
+flyweight	\
+interpreter	\
+prototype	\
 proxy	\
 simple-factory	\
 singleton	\
+strategy	\
+visitor	\
+#SUBDIR_END
 #MAKEFLAGS = -w
 ifeq ('Darwin','Darwin')
 	CC  := clang
