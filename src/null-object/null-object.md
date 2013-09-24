@@ -1,0 +1,1 @@
+#Null Object Pattern
