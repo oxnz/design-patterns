@@ -3,7 +3,7 @@
 ##Finished Patterns:
 
 * singleton	cpp+java
-* proxy		cpp+java
+* proxy		cpp+java+python
 * builder	cpp+java
 * command	cpp+java
 * decorator	cpp+java
@@ -17,9 +17,10 @@
 * interpreter	cpp+java
 * mediator	cpp+java
 * memento	cpp+java
-* state		cpp+java
+* state		cpp+java+python
 * prototype	cpp+java
 * strategy	cpp+java
+* visitor	cpp+java
 * simple-factory		cpp+java
 * abstract-factory		cpp+java
 * factory-method		cpp+java
@@ -28,4 +29,3 @@
 * iterator
 * null-object
 * private-class-data
-* visitor
