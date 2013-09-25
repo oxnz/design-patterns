@@ -6,19 +6,33 @@ function usage() {
 
 function add_pattern() {
 	echo "adding pattern: " $1
-	if [ -a $1 ]
+	if [ -f $1 ]
 	then
-		echo "*** error: file or directory [" $1 "] already exist"
+		echo "*** error: file [" $1 "] already exist"
 		return 1
 	fi
 
 	mkdir -p $1/cpp
 	mkdir -p $1/java
 	touch $1/$1.md
-	cp ./Makefile.template $1/cpp/Makefile
-	cp ./main.cc.template $1/cpp/main.cc
-	cp ./build.xml.template $1/java/build.xml
-	cp ./Test.java.template $1/java/Test.java
+	if [ ! -f $1/cpp/Makefile ]
+	then
+		cp ./Makefile.template $1/cpp/Makefile
+	fi
+	if [ ! -f $1/cpp/main.cc ]
+	then
+		cp ./main.cc.template $1/cpp/main.cc
+	fi
+	if [ ! -f $1/java/build.xml ]
+	then
+		cp ./build.xml.template $1/java/build.xml
+		sed -i -e "s/Proxy/$1/g" $1/java/build.xml
+		unlink $1/java/build.xml-e
+	fi
+	if [ ! -f $1/java/Test.java ]
+	then
+		cp ./Test.java.template $1/java/Test.java
+	fi
 	sed -i -e "/^SUBDIR/ a\\
 		$1	\\\\
 		" Makefile

@@ -16,16 +16,16 @@
 * composite	cpp+java
 * interpreter	cpp+java
 * mediator	cpp+java
-* abstract-factory	cpp+java
-* factory-method	cpp+java
+* memento	cpp+java
+* state		cpp+java
+* prototype	cpp+java
+* strategy	cpp+java
+* simple-factory		cpp+java
+* abstract-factory		cpp+java
+* factory-method		cpp+java
 * chain-of-responsibility	cpp+java
 
 * iterator
-* memento
 * null-object
 * private-class-data
-* prototype
-* simple-factory
-* state
-* strategy
 * visitor

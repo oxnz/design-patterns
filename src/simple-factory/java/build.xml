@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="simple-factory" default="test" basedir=".">
+	<!-- set global properties for this build -->
+	<property name="charset" value="UTF-8" />
+	<property name="src" value="." />
+	<property name="build" value="build" />
+	<property name="dist" value="dist" />
+
+	<target name="init">
+		<!-- Create the time stamp -->
+		<tstamp />
+		<!-- Create the build directory structure used by compile -->
+		<mkdir dir="${build}" />
+	</target>
+
+	<target name="compile" depends="init">
+		<!-- Compile the java code from ${src} into ${build} -->
+		<javac 
+			fork="true"
+			debug="true"
+			encoding="UTF-8"
+			optimize="true"
+			deprecation="true"
+			srcdir="${src}" destdir="${build}" includeantruntime="on">
+		</javac>
+	</target>
+
+	<target name="dist" depends="compile">
+		<!-- Create the distribution directory -->
+		<mkdir dir="${dist}/lib" />
+		<!-- Put everything in ${build} into the ${ant.project.name}-${DSTAMP}.jar file -->
+		<jar jarfile="${dist}/lib/${ant.project.name}-${DSTAMP}.jar" basedir="${build}">
+			<manifest>
+				<attribute name="Main-Class" value="Test" />
+				<attribute name="Class-Path" value="." />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="test" depends="dist">
+		<!-- Test the jar file -->
+		<java jar="${dist}/lib/${ant.project.name}-${DSTAMP}.jar" fork="true" />
+	</target>
+
+	<target name="clean">
+		<!-- Delete the ${build} and ${dist} directory trees -->
+		<delete dir="${build}" />
+		<delete dir="${dist}" />
+	</target>
+</project>

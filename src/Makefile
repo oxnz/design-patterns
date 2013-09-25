@@ -6,6 +6,13 @@
 
 
 SUBDIRS =	\
+strategy	\
+simple-factory	\
+prototype	\
+state	\
+memento	\
+memento	\
+memento	\
 private-class-data	\
 null-object	\
 iterator	\
