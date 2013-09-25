@@ -11,16 +11,16 @@
 * observer	cpp+java
 * template	cpp+java
 * adapter	cpp+java
+* flyweight	cpp+java
+* bridge	cpp+java
+* composite	cpp+java
+* interpreter	cpp+java
+* mediator	cpp+java
 * abstract-factory	cpp+java
 * factory-method	cpp+java
+* chain-of-responsibility	cpp+java
 
-* chain-of-responsibility
-* bridge
-* composite
-* flyweight
-* interpreter
 * iterator
-* mediator
 * memento
 * null-object
 * private-class-data
