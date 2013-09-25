@@ -3,6 +3,10 @@
 *.lo
 *.o
 
+# Compiled python and java class files
+*.pyc
+*.class
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
@@ -11,3 +15,4 @@
 *.lai
 *.la
 *.a
+

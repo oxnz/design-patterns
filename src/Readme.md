@@ -20,7 +20,7 @@
 * state		cpp+java+python
 * prototype	cpp+java
 * strategy	cpp+java
-* visitor	cpp+java
+* visitor	cpp+java+python
 * simple-factory		cpp+java
 * abstract-factory		cpp+java
 * factory-method		cpp+java

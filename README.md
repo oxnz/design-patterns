@@ -8,16 +8,41 @@ This is a collection of known design patterns and some sample code how to implem
 
 ##Progress 进度
 
-模式介绍 DONE
+* singleton	cpp+java
+* proxy		cpp+java+python
+* builder	cpp+java
+* command	cpp+java
+* decorator	cpp+java
+* facade	cpp+java
+* observer	cpp+java
+* template	cpp+java
+* adapter	cpp+java
+* flyweight	cpp+java
+* bridge	cpp+java
+* composite	cpp+java
+* interpreter	cpp+java
+* mediator	cpp+java
+* memento	cpp+java
+* state		cpp+java+python
+* prototype	cpp+java
+* strategy	cpp+java
+* visitor	cpp+java+python
+* simple-factory		cpp+java
+* abstract-factory		cpp+java
+* factory-method		cpp+java
+* chain-of-responsibility	cpp+java
 
-C++ DONE
+* iterator
+* null-object
+* private-class-data
+模式介绍 DONE
 
 [PHP](https://github.com/domnikl/DesignPatternsPHP) DONE
 ##TODO
 
 添加其他语言的实现。
 
-Java
+finish python implementation
 
 ##Contribute
 
