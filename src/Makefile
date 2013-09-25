@@ -6,6 +6,7 @@
 
 
 SUBDIRS =	\
+visitor	\
 strategy	\
 simple-factory	\
 prototype	\
