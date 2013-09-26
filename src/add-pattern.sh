@@ -14,6 +14,7 @@ function add_pattern() {
 
 	mkdir -p $1/cpp
 	mkdir -p $1/java
+	mkdir -p $1/python
 	touch $1/$1.md
 	if [ ! -f $1/cpp/Makefile ]
 	then
@@ -32,6 +33,11 @@ function add_pattern() {
 	if [ ! -f $1/java/Test.java ]
 	then
 		cp ./Test.java.template $1/java/Test.java
+	fi
+	if [ ! -f $1/python/test.py ]
+	then
+		echo "#!/usr/bin/python" > $1/python/test.py
+		echo "#coding: utf-8" >> $1/python/test.py
 	fi
 	sed -i -e "/^SUBDIR/ a\\
 		$1	\\\\
