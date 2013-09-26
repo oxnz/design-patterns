@@ -1,12 +1,10 @@
-#Design Patterns 设计模式
+#Design Patterns
 
-##Description 简介
+##Description
 
-项目中包含了四大金刚的设计模式的介绍和实现。
+This is a collection of well known design patterns and some sample code how to implement them in C++, Java, Python and more(latter).
 
-This is a collection of known design patterns and some sample code how to implement them in C++, Java, Python and more(latter).
-
-##Progress 进度
+##Progress
 
 Pattern | Description | C++ | Java | Python
 :--------:|:-------------:|:-----:|:------:|:-------:
