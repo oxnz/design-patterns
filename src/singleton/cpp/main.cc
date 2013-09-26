@@ -15,7 +15,7 @@ int main(void) {
 	std::cout << "ton1->var=" << ton1->getVar() << std::endl;
 	std::cout << "ton2->var=" << ton2->getVar() << std::endl;
 
-	delete Singleton::GetInstance(); //必须显式地删除
+	Singleton::DelInstance(); //必须显式地删除
 
 	return 0;
 }
