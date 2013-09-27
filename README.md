@@ -6,15 +6,15 @@ This is a collection of well known design patterns and some sample code how to i
 
 ##Progress
 
-Pattern | Description | C++ | Java | Python
+Pattern | Description | C++ | Java | Python | PHP
 :--------:|:-------------:|:-----:|:------:|:-------:
-singleton | [DONE](./src/singleton/singleton.md) | [DONE](./src/singleton/cpp) | [DONE](./src/singleton/java) | [DONE](./src/singleton/python)
-proxy | [DONE](./src/proxy/proxy.md) | [DONE](./src/proxy/cpp) | [DONE](./src/proxy/java) | [DONE](./src/proxy/python)
+singleton | [DONE](./src/singleton/singleton.md) | [DONE](./src/singleton/cpp) | [DONE](./src/singleton/java) | [DONE](./src/singleton/python) | [DONE](./src/singleton/php)
+proxy | [DONE](./src/proxy/proxy.md) | [DONE](./src/proxy/cpp) | [DONE](./src/proxy/java) | [DONE](./src/proxy/python) | [DONE](./src/proxy/php)
 builder | [DONE](./src/builder/builder.md) | [DONE](./src/builder/cpp) | [DONE](./src/builder/java) | [DONE](./src/builder/python)
 command | [DONE](./src/command/command.md) | [DONE](./src/command/cpp) | [DONE](./src/command/java) | [DONE](./src/command/python)
 decorator | [DONE](./src/decorator/decorator.md) | [DONE](./src/decorator/cpp) | [DONE](./src/decorator/java) | [DONE](./src/decorator/python)
 facade | [DONE](./src/facade/facade.md) | [DONE](./src/facade/cpp) | [DONE](./src/facade/java) | [DONE](./src/facade/python)
-observer | [DONE](./src/observer/observer.md) | [DONE](./src/observer/cpp) | [DONE](./src/observer/java) | [DONE](./src/observer/python)
+observer | [DONE](./src/observer/observer.md) | [DONE](./src/observer/cpp) | [DONE](./src/observer/java) | [DONE](./src/observer/python) | [DONE](./src/observer/php)
 template | [DONE](./src/template/template.md) | [DONE](./src/template/cpp) | [DONE](./src/template/java) | [DONE](./src/template/python)
 adapter | [DONE](./src/adapter/adapter.md) | [DONE](./src/adapter/cpp) | [DONE](./src/adapter/java) | [DONE](./src/adapter/python)
 flyweight | [DONE](./src/flyweight/flyweight.md) | [DONE](./src/flyweight/cpp) | [DONE](./src/flyweight/java) | [DONE](./src/flyweight/python)
@@ -23,10 +23,10 @@ composite | [DONE](./src/composite/composite.md) | [DONE](./src/composite/cpp) |
 interpreter | [DONE](./src/interpreter/interpreter.md) | [DONE](./src/interpreter/cpp) | [DONE](./src/interpreter/java) | [TODO]
 mediator | [DONE](./src/mediator/mediator.md) | [DONE](./src/mediator/cpp) | [DONE](./src/mediator/java) | [DONE](./src/mediator/python)
 memento	| [DONE](./src/memento/memento.md) | [DONE](./src/memento/cpp) | [DONE](./src/memento/java) | [DONE](./src/memento/python)
-state |	[DONE](./src/state/state.md) | [DONE](./src/state/cpp) | [DONE](./src/state/java) | [DONE](./src/state/python)
+state |	[DONE](./src/state/state.md) | [DONE](./src/state/cpp) | [DONE](./src/state/java) | [DONE](./src/state/python) | [DONE](./src/state/php)
 prototype | [DONE](./src/prototype/prototype.md) | [DONE](./src/prototype/cpp) | [DONE](./src/prototype/java) | [DONE](./src/prototype/python)
 strategy | [DONE](./src/strategy/strategy.md) | [DONE](./src/strategy/cpp) | [DONE](./src/strategy/java) | [DONE](./src/strategy/python)
-visitor | [DONE](./src/visitor/visitor.md) | [DONE](./src/visitor/cpp) | [DONE](./src/visitor/java) | [DONE](./src/visitor/python)
+visitor | [DONE](./src/visitor/visitor.md) | [DONE](./src/visitor/cpp) | [DONE](./src/visitor/java) | [DONE](./src/visitor/python) | [DONE](./src/visitor/php)
 simple-factory | [DONE](./src/simple-factory/simple-factory.md) | [DONE](./src/simple-factory/cpp) | [DONE](./src/simple-factory/java) | [TODO]
 abstract-factory | [DONE](./src/abstract-factory/abstract-factory.md) | [DONE](./src/abstract-factory/cpp) | [DONE](./src/abstract-factory/java) | [DONE](./src/abstract-factory/python)
 factory-method | [DONE](./src/factory-method/factory-method.md) | [DONE](./src/factory-method/cpp) | [DONE](./src/factory-method/java) | [DONE](./src/factory-method/python)
