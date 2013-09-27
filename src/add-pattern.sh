@@ -15,6 +15,7 @@ function add_pattern() {
 	mkdir -p $1/cpp
 	mkdir -p $1/java
 	mkdir -p $1/python
+	mkdir -p $1/php
 	touch $1/$1.md
 	if [ ! -f $1/cpp/Makefile ]
 	then
