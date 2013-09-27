@@ -7,7 +7,7 @@ This is a collection of well known design patterns and some sample code how to i
 ##Progress
 
 Pattern | Description | C++ | Java | Python | PHP
-:--------:|:-------------:|:-----:|:------:|:-------:
+:--------:|:--------:|:-----:|:------:|:-------:|:------:
 singleton | [DONE](./src/singleton/singleton.md) | [DONE](./src/singleton/cpp) | [DONE](./src/singleton/java) | [DONE](./src/singleton/python) | [DONE](./src/singleton/php)
 proxy | [DONE](./src/proxy/proxy.md) | [DONE](./src/proxy/cpp) | [DONE](./src/proxy/java) | [DONE](./src/proxy/python) | [DONE](./src/proxy/php)
 builder | [DONE](./src/builder/builder.md) | [DONE](./src/builder/cpp) | [DONE](./src/builder/java) | [DONE](./src/builder/python)
