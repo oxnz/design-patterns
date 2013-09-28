@@ -6,13 +6,13 @@ This is a collection of well known design patterns and some sample code how to i
 
 ##Progress
 
-Pattern | Description | C++ | Java | Python | PHP
-:--------:|:--------:|:-----:|:------:|:-------:|:------:
-singleton | [DONE](./src/singleton/singleton.md) | [DONE](./src/singleton/cpp) | [DONE](./src/singleton/java) | [DONE](./src/singleton/python) | [DONE](./src/singleton/php)
+Pattern | Description | C++ | Java | Python | PHP | Perl
+:--------:|:--------:|:-----:|:------:|:-------:|:------:|:---:
+singleton | [DONE](./src/singleton/singleton.md) | [DONE](./src/singleton/cpp) | [DONE](./src/singleton/java) | [DONE](./src/singleton/python) | [DONE](./src/singleton/php) | [DONE](./src/singleton/perl)
 proxy | [DONE](./src/proxy/proxy.md) | [DONE](./src/proxy/cpp) | [DONE](./src/proxy/java) | [DONE](./src/proxy/python) | [DONE](./src/proxy/php)
 builder | [DONE](./src/builder/builder.md) | [DONE](./src/builder/cpp) | [DONE](./src/builder/java) | [DONE](./src/builder/python) | [DONE](./src/builder/php)
 command | [DONE](./src/command/command.md) | [DONE](./src/command/cpp) | [DONE](./src/command/java) | [DONE](./src/command/python) | [DONE](./src/command/php)
-decorator | [DONE](./src/decorator/decorator.md) | [DONE](./src/decorator/cpp) | [DONE](./src/decorator/java) | [DONE](./src/decorator/python) | [DONE](./src/decorator/php)
+decorator | [DONE](./src/decorator/decorator.md) | [DONE](./src/decorator/cpp) | [DONE](./src/decorator/java) | [DONE](./src/decorator/python) | [DONE](./src/decorator/php) | [DONE](./src/decorator/perl)
 facade | [DONE](./src/facade/facade.md) | [DONE](./src/facade/cpp) | [DONE](./src/facade/java) | [DONE](./src/facade/python) | [DONE](./src/facade/php)
 observer | [DONE](./src/observer/observer.md) | [DONE](./src/observer/cpp) | [DONE](./src/observer/java) | [DONE](./src/observer/python) | [DONE](./src/observer/php)
 template | [DONE](./src/template/template.md) | [DONE](./src/template/cpp) | [DONE](./src/template/java) | [DONE](./src/template/python) | [DONE](./src/template/php)
@@ -31,12 +31,12 @@ simple-factory | [DONE](./src/simple-factory/simple-factory.md) | [DONE](./src/s
 abstract-factory | [DONE](./src/abstract-factory/abstract-factory.md) | [DONE](./src/abstract-factory/cpp) | [DONE](./src/abstract-factory/java) | [DONE](./src/abstract-factory/python) | [DONE](./src/abstract-factory/php)
 factory-method | [DONE](./src/factory-method/factory-method.md) | [DONE](./src/factory-method/cpp) | [DONE](./src/factory-method/java) | [DONE](./src/factory-method/python) | [DONE](./src/factory-method/php)
 chain-of-responsibility | [DONE](./src/chain-of-responsibility/chain-of-responsibility.md) | [DONE](./src/chain-of-responsibility/cpp) | [DONE](./src/chain-of-responsibility/java) | [DONE](./src/chain-of-responsibility/python)
-iterator | [DONE](./src/iterator/iterator.md) | [DONE](./src/iterator/cpp) | [TODO] | [DONE](./src/iterator/python)
+iterator | [DONE](./src/iterator/iterator.md) | [DONE](./src/iterator/cpp) | [TODO] | [DONE](./src/iterator/python) | [DONE](./src/iterator/perl)
 null-object | [DONE](./src/null-object/null-object.md) | [DONE](./src/null-object/cpp) | [TODO] | [DONE](./src/null-object/python)
 object-pool | [DONE](./src/object-pool/object-pool.md) | [TODO] | [TODO] | [DONE](./src/object-pool/python)
 private-class-data | [TODO] | [TODO] | [TODO] | [TODO]
 
-[PHP](https://github.com/domnikl/DesignPatternsPHP) DONE
+<!-- [PHP](https://github.com/domnikl/DesignPatternsPHP) DONE -->
 
 
 ##Contribute
