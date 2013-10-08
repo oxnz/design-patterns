@@ -27,7 +27,7 @@ state |	[DONE](./src/state/state.md) | [DONE](./src/state/cpp) | [DONE](./src/st
 prototype | [DONE](./src/prototype/prototype.md) | [DONE](./src/prototype/cpp) | [DONE](./src/prototype/java) | [DONE](./src/prototype/python) | [DONE](./src/prototype/php)
 strategy | [DONE](./src/strategy/strategy.md) | [DONE](./src/strategy/cpp) | [DONE](./src/strategy/java) | [DONE](./src/strategy/python) | [DONE](./src/strategy/php)
 visitor | [DONE](./src/visitor/visitor.md) | [DONE](./src/visitor/cpp) | [DONE](./src/visitor/java) | [DONE](./src/visitor/python) | [DONE](./src/visitor/php)
-simple-factory | [DONE](./src/simple-factory/simple-factory.md) | [DONE](./src/simple-factory/cpp) | [DONE](./src/simple-factory/java) | [TODO]
+simple-factory | [DONE](./src/simple-factory/simple-factory.md) | [DONE](./src/simple-factory/cpp) | [DONE](./src/simple-factory/java) | [TODO] | [DONE](./src/simple-factory/php)
 abstract-factory | [DONE](./src/abstract-factory/abstract-factory.md) | [DONE](./src/abstract-factory/cpp) | [DONE](./src/abstract-factory/java) | [DONE](./src/abstract-factory/python) | [DONE](./src/abstract-factory/php)
 factory-method | [DONE](./src/factory-method/factory-method.md) | [DONE](./src/factory-method/cpp) | [DONE](./src/factory-method/java) | [DONE](./src/factory-method/python) | [DONE](./src/factory-method/php)
 chain-of-responsibility | [DONE](./src/chain-of-responsibility/chain-of-responsibility.md) | [DONE](./src/chain-of-responsibility/cpp) | [DONE](./src/chain-of-responsibility/java) | [DONE](./src/chain-of-responsibility/python) | [DONE](./src/chain-of-responsibility/php)
