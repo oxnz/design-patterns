@@ -6,7 +6,7 @@ use warnings;
 sub new {
 	my ($class, $args) = @_;
 	my $self = {
-		observers	=> $args->{observers} || qw//,
+		observers	=> $args->{observers},
 	};
 	return bless $self, $class;
 }

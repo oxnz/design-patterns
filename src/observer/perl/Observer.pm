@@ -2,7 +2,7 @@ package Observer;
 
 sub new {
 	my ($class, $args) = @_;
-	return bless $self, $class;
+	return bless {}, $class;
 }
 
 sub update {
