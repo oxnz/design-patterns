@@ -1,8 +1,8 @@
-package Observer::DataSubject;
+package Subject::DataSubject;
+use parent Subject;
 
 use strict;
 use warnings;
-use parent Observer::Subject;
 
 sub new {
 	my ($class, $args) = @_;

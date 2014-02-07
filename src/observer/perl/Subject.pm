@@ -1,4 +1,4 @@
-package Observer::Subject;
+package Subject;
 
 use strict;
 use warnings;
