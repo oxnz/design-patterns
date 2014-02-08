@@ -30,7 +30,7 @@ visitor | [DONE](./src/visitor/visitor.md) | [DONE](./src/visitor/cpp) | [DONE](
 simple-factory | [DONE](./src/simple-factory/simple-factory.md) | [DONE](./src/simple-factory/cpp) | [DONE](./src/simple-factory/java) | [TODO] | [DONE](./src/simple-factory/php)
 abstract-factory | [DONE](./src/abstract-factory/abstract-factory.md) | [DONE](./src/abstract-factory/cpp) | [DONE](./src/abstract-factory/java) | [DONE](./src/abstract-factory/python) | [DONE](./src/abstract-factory/php)
 factory-method | [DONE](./src/factory-method/factory-method.md) | [DONE](./src/factory-method/cpp) | [DONE](./src/factory-method/java) | [DONE](./src/factory-method/python) | [DONE](./src/factory-method/php)
-chain-of-responsibility | [DONE](./src/chain-of-responsibility/chain-of-responsibility.md) | [DONE](./src/chain-of-responsibility/cpp) | [DONE](./src/chain-of-responsibility/java) | [DONE](./src/chain-of-responsibility/python) | [DONE](./src/chain-of-responsibility/php)
+chain-of-responsibility | [DONE](./src/chain-of-responsibility/chain-of-responsibility.md) | [DONE](./src/chain-of-responsibility/cpp) | [DONE](./src/chain-of-responsibility/java) | [DONE](./src/chain-of-responsibility/python) | [DONE](./src/chain-of-responsibility/php) | [DONE](./src/chain-of-responsibility/perl)
 iterator | [DONE](./src/iterator/iterator.md) | [DONE](./src/iterator/cpp) | [TODO] | [DONE](./src/iterator/python) | [DONE](./src/iterator/perl)
 null-object | [DONE](./src/null-object/null-object.md) | [DONE](./src/null-object/cpp) | [TODO] | [DONE](./src/null-object/python) | [DONE](./src/null-object/php)
 object-pool | [DONE](./src/object-pool/object-pool.md) | [TODO] | [TODO] | [DONE](./src/object-pool/python)
