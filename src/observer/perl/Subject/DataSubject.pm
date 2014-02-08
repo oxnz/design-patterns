@@ -3,6 +3,7 @@ use parent Subject;
 
 use strict;
 use warnings;
+use Data::Dump;
 
 sub new {
 	my ($class, $args) = @_;

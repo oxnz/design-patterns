@@ -15,8 +15,12 @@ my $d2 = Subject::DataSubject->new({
 		data	=> 234,
 	});
 
-my $ob1 = Observer::DataObserver->new;
-my $ob2 = Observer::DataObserver->new;
+my $ob1 = Observer::DataObserver->new({
+		name	=> "ob1",
+	});
+my $ob2 = Observer::DataObserver->new({
+		name	=> "ob2",
+	});
 
 $d1->attach($ob1);
 $d1->attach($ob2);
@@ -24,4 +28,4 @@ $d2->attach($ob1);
 $d2->attach($ob2);
 
 print "setting d1 to 10\n";
-d1->data(10);
+$d1->data(10);
