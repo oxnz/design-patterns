@@ -14,7 +14,7 @@ builder | [DONE](./src/builder/builder.md) | [DONE](./src/builder/cpp) | [DONE](
 command | [DONE](./src/command/command.md) | [DONE](./src/command/cpp) | [DONE](./src/command/java) | [DONE](./src/command/python) | [DONE](./src/command/php)
 decorator | [DONE](./src/decorator/decorator.md) | [DONE](./src/decorator/cpp) | [DONE](./src/decorator/java) | [DONE](./src/decorator/python) | [DONE](./src/decorator/php) | [DONE](./src/decorator/perl)
 facade | [DONE](./src/facade/facade.md) | [DONE](./src/facade/cpp) | [DONE](./src/facade/java) | [DONE](./src/facade/python) | [DONE](./src/facade/php)
-observer | [DONE](./src/observer/observer.md) | [DONE](./src/observer/cpp) | [DONE](./src/observer/java) | [DONE](./src/observer/python) | [DONE](./src/observer/php)
+observer | [DONE](./src/observer/observer.md) | [DONE](./src/observer/cpp) | [DONE](./src/observer/java) | [DONE](./src/observer/python) | [DONE](./src/observer/php) | [DONE](./src/observer/perl)
 template | [DONE](./src/template/template.md) | [DONE](./src/template/cpp) | [DONE](./src/template/java) | [DONE](./src/template/python) | [DONE](./src/template/php)
 adapter | [DONE](./src/adapter/adapter.md) | [DONE](./src/adapter/cpp) | [DONE](./src/adapter/java) | [DONE](./src/adapter/python) | [DONE](./src/adapter/php)
 flyweight | [DONE](./src/flyweight/flyweight.md) | [DONE](./src/flyweight/cpp) | [DONE](./src/flyweight/java) | [DONE](./src/flyweight/python) | [DONE](./src/flyweight/php)
