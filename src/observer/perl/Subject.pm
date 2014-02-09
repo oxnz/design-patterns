@@ -13,6 +13,11 @@ sub new {
 	return bless $self, $class;
 }
 
+sub DESTROY {
+	my $self = shift;
+	print "destroy ", $self->name, "\n";
+}
+
 sub name {
 	my ($self, $name) = @_;
 	$self->{name} = $name if defined($name);
@@ -26,6 +31,7 @@ sub observers {
 
 sub attach {
 	my ($self, $ob) = @_;
+	print "attach ", $ob->name, " to ", $self->name, "\n";
 	my $obs = $self->observers;
 	my $contain = undef;
 	foreach (@$obs) {
@@ -41,12 +47,11 @@ sub attach {
 
 sub detach {
 	my ($self, $ob) = @_;
+	print "detach ", $ob->name, " from ", $self->name, "\n";
 	my $obs = $self->observers;
 	for (my $index = 0; $index < @$obs; ++$index) {
-		last if not defined($ob);
-		last if not defined($obs->[$index]);
-		if ($obs->[$index] == $ob) {
-			delete $obs->[$index];
+		if ($ob == $obs->[$index]) {
+			splice @$obs, $index, 1;
 			last;
 		}
 	}

@@ -10,6 +10,11 @@ sub new {
 	return bless $self, $class;
 }
 
+sub DESTROY {
+	my $self = shift;
+	print "destroy ", $self->name, "\n";
+}
+
 sub name {
 	my ($self, $name) = @_;
 	$self->name = $name if defined($name);
