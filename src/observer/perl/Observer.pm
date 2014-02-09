@@ -1,5 +1,7 @@
 package Observer;
 
+use Data::Dump;
+
 sub new {
 	my ($class, $args) = @_;
 	my $self = {

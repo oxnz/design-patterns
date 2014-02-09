@@ -9,7 +9,7 @@ sub new {
 
 sub update {
 	my ($self, $subject) = @_;
-	$self->SUPER::update(@_);
+	$self->SUPER::update($subject);
 	print "\twith data: ", $subject->data, "\n";
 	#print "DataSubject: ", $subject->name, " has data: ", $subject->data, "\n";
 }

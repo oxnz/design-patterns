@@ -41,10 +41,12 @@ sub attach {
 
 sub detach {
 	my ($self, $ob) = @_;
-	my @obs = $self->observers;
-	for (my $index = 0; $index < $#obs; ++$index) {
-		if ($obs[$index] == $ob) {
-			delete $obs[$index];
+	my $obs = $self->observers;
+	for (my $index = 0; $index < @$obs; ++$index) {
+		last if not defined($ob);
+		last if not defined($obs->[$index]);
+		if ($obs->[$index] == $ob) {
+			delete $obs->[$index];
 			last;
 		}
 	}
@@ -54,7 +56,7 @@ sub notify {
 	my ($self) = @_;
 	my $obs = $self->observers;
 	foreach my $ob (@$obs) {
-		$ob->update($self);
+		$ob->update($self) if defined($ob);
 	}
 }
 
