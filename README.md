@@ -21,7 +21,7 @@ flyweight | [DONE](./src/flyweight/flyweight.md) | [DONE](./src/flyweight/cpp) |
 bridge | [DONE](./src/bridge/bridge.md) | [DONE](./src/bridge/cpp) | [DONE](./src/bridge/java) | [DONE](./src/bridge/python) | [DONE](./src/bridge/php)
 composite | [DONE](./src/composite/composite.md) | [DONE](./src/composite/cpp) | [DONE](./src/composite/java) | [DONE](./src/composite/python) | [DONE](./src/composite/php)
 interpreter | [DONE](./src/interpreter/interpreter.md) | [DONE](./src/interpreter/cpp) | [DONE](./src/interpreter/java) | [TODO] | [DONE](./src/interpreter/php)
-mediator | [DONE](./src/mediator/mediator.md) | [DONE](./src/mediator/cpp) | [DONE](./src/mediator/java) | [DONE](./src/mediator/python) | [DONE](./src/mediator/php)
+mediator | [DONE](./src/mediator/mediator.md) | [DONE](./src/mediator/cpp) | [DONE](./src/mediator/java) | [DONE](./src/mediator/python) | [DONE](./src/mediator/php) | [DONE](./src/mediator/perl)
 memento	| [DONE](./src/memento/memento.md) | [DONE](./src/memento/cpp) | [DONE](./src/memento/java) | [DONE](./src/memento/python) | [DONE](./src/memento/php)
 state |	[DONE](./src/state/state.md) | [DONE](./src/state/cpp) | [DONE](./src/state/java) | [DONE](./src/state/python) | [DONE](./src/state/php)
 prototype | [DONE](./src/prototype/prototype.md) | [DONE](./src/prototype/cpp) | [DONE](./src/prototype/java) | [DONE](./src/prototype/python) | [DONE](./src/prototype/php)
