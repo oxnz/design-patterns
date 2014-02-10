@@ -50,9 +50,16 @@ class ConcreteBuilder extends Builder {
 }
 
 class Director {
+	private $_builder;
+
 	public function __construct(Builder $builder) {
+		$this->_builder = $builder;
 		$builder->buildPart1();
 		$builder->buildPart2();
+	}
+
+	public function getProduct() {
+		return $this->_builder->getProduct();
 	}
 }
 
@@ -60,7 +67,7 @@ class Client {
 	public static function main() {
 		$builder = new ConcreteBuilder();
 		$director = new Director($builder);
-		$product = $builder->getProduct();
+		$product = $director->getProduct();
 		$product->show();
 		$builder = null;
 		$director = null;
