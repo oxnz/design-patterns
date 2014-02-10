@@ -2,8 +2,7 @@ package State;
 
 use strict;
 use warnings;
-
-my $instance = undef;
+use feature 'state';
 
 sub new {
 	my ($class, $args) = @_;
@@ -12,8 +11,8 @@ sub new {
 }
 
 sub instance {
-	$instance = State->new if not defined($instance);
-	return $instance;
+	my $class = shift;
+	return $class->new;
 }
 
 sub handle {

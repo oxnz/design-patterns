@@ -5,17 +5,21 @@ use strict;
 use warnings;
 use State::ConcreteStateA;
 use Data::Dump;
+use feature 'state';
 
 sub new {
 	my ($class, $args) = @_;
-	my $self = $class->SUPER::new($args);
-	return $self;
+	state $instance;
+	if (! defined $instance) {
+		$instance = $class->SUPER::new($args);
+	}
+	return $instance;
 }
 
 sub handle {
 	my ($self, $context) = @_;
 	print "ConcreteStateB handle method\n";
-	$context->state(State::ConcreteStateA->new);
+	$context->state(State::ConcreteStateA->instance);
 }
 
 1;

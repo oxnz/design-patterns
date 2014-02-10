@@ -7,7 +7,7 @@ use State::ConcreteStateA;
 sub new {
 	my ($class, $args) = @_;
 	my $self = {
-		state	=> State::ConcreteStateA->new,
+		state	=> State::ConcreteStateA->instance,
 	};
 	return bless $self, $class;
 }
