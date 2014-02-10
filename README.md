@@ -9,7 +9,7 @@ This is a collection of well known design patterns and some sample code how to i
 Pattern | Description | C++ | Java | Python | PHP | Perl
 :--------:|:--------:|:-----:|:------:|:-------:|:------:|:---:
 singleton | [DONE](./src/singleton/singleton.md) | [DONE](./src/singleton/cpp) | [DONE](./src/singleton/java) | [DONE](./src/singleton/python) | [DONE](./src/singleton/php) | [DONE](./src/singleton/perl)
-proxy | [DONE](./src/proxy/proxy.md) | [DONE](./src/proxy/cpp) | [DONE](./src/proxy/java) | [DONE](./src/proxy/python) | [DONE](./src/proxy/php)
+proxy | [DONE](./src/proxy/proxy.md) | [DONE](./src/proxy/cpp) | [DONE](./src/proxy/java) | [DONE](./src/proxy/python) | [DONE](./src/proxy/php) | [DONE](./src/proxy/perl)
 builder | [DONE](./src/builder/builder.md) | [DONE](./src/builder/cpp) | [DONE](./src/builder/java) | [DONE](./src/builder/python) | [DONE](./src/builder/php) | [DONE](./src/builder/perl)
 command | [DONE](./src/command/command.md) | [DONE](./src/command/cpp) | [DONE](./src/command/java) | [DONE](./src/command/python) | [DONE](./src/command/php)
 decorator | [DONE](./src/decorator/decorator.md) | [DONE](./src/decorator/cpp) | [DONE](./src/decorator/java) | [DONE](./src/decorator/python) | [DONE](./src/decorator/php) | [DONE](./src/decorator/perl)
