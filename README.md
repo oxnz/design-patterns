@@ -10,7 +10,7 @@ Pattern | Description | C++ | Java | Python | PHP | Perl
 :--------:|:--------:|:-----:|:------:|:-------:|:------:|:---:
 singleton | [DONE](./src/singleton/singleton.md) | [DONE](./src/singleton/cpp) | [DONE](./src/singleton/java) | [DONE](./src/singleton/python) | [DONE](./src/singleton/php) | [DONE](./src/singleton/perl)
 proxy | [DONE](./src/proxy/proxy.md) | [DONE](./src/proxy/cpp) | [DONE](./src/proxy/java) | [DONE](./src/proxy/python) | [DONE](./src/proxy/php)
-builder | [DONE](./src/builder/builder.md) | [DONE](./src/builder/cpp) | [DONE](./src/builder/java) | [DONE](./src/builder/python) | [DONE](./src/builder/php)
+builder | [DONE](./src/builder/builder.md) | [DONE](./src/builder/cpp) | [DONE](./src/builder/java) | [DONE](./src/builder/python) | [DONE](./src/builder/php) | [DONE](./src/builder/perl)
 command | [DONE](./src/command/command.md) | [DONE](./src/command/cpp) | [DONE](./src/command/java) | [DONE](./src/command/python) | [DONE](./src/command/php)
 decorator | [DONE](./src/decorator/decorator.md) | [DONE](./src/decorator/cpp) | [DONE](./src/decorator/java) | [DONE](./src/decorator/python) | [DONE](./src/decorator/php) | [DONE](./src/decorator/perl)
 facade | [DONE](./src/facade/facade.md) | [DONE](./src/facade/cpp) | [DONE](./src/facade/java) | [DONE](./src/facade/python) | [DONE](./src/facade/php) | [DONE](./src/facade/perl)
