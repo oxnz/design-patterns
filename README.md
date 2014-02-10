@@ -25,7 +25,7 @@ mediator | [DONE](./src/mediator/mediator.md) | [DONE](./src/mediator/cpp) | [DO
 memento	| [DONE](./src/memento/memento.md) | [DONE](./src/memento/cpp) | [DONE](./src/memento/java) | [DONE](./src/memento/python) | [DONE](./src/memento/php)
 state |	[DONE](./src/state/state.md) | [DONE](./src/state/cpp) | [DONE](./src/state/java) | [DONE](./src/state/python) | [DONE](./src/state/php) | [DONE](./src/state/perl)
 prototype | [DONE](./src/prototype/prototype.md) | [DONE](./src/prototype/cpp) | [DONE](./src/prototype/java) | [DONE](./src/prototype/python) | [DONE](./src/prototype/php)
-strategy | [DONE](./src/strategy/strategy.md) | [DONE](./src/strategy/cpp) | [DONE](./src/strategy/java) | [DONE](./src/strategy/python) | [DONE](./src/strategy/php)
+strategy | [DONE](./src/strategy/strategy.md) | [DONE](./src/strategy/cpp) | [DONE](./src/strategy/java) | [DONE](./src/strategy/python) | [DONE](./src/strategy/php) | [DONE](./src/strategy/perl)
 visitor | [DONE](./src/visitor/visitor.md) | [DONE](./src/visitor/cpp) | [DONE](./src/visitor/java) | [DONE](./src/visitor/python) | [DONE](./src/visitor/php) | [DONE](./src/visitor/perl)
 simple-factory | [DONE](./src/simple-factory/simple-factory.md) | [DONE](./src/simple-factory/cpp) | [DONE](./src/simple-factory/java) | [TODO] | [DONE](./src/simple-factory/php)
 abstract-factory | [DONE](./src/abstract-factory/abstract-factory.md) | [DONE](./src/abstract-factory/cpp) | [DONE](./src/abstract-factory/java) | [DONE](./src/abstract-factory/python) | [DONE](./src/abstract-factory/php)
