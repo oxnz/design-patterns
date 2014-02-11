@@ -12,10 +12,12 @@ function add_pattern() {
 		return 1
 	fi
 
-	mkdir -p $1/cpp
-	mkdir -p $1/java
-	mkdir -p $1/python
-	mkdir -p $1/php
+	mkdir -p $1/{cpp,java,python,perl,php}
+	#mkdir -p $1/cpp
+	#mkdir -p $1/java
+	#mkdir -p $1/python
+	#mkdir -p $1/perl
+	#mkdir -p $1/php
 	touch $1/$1.md
 	if [ ! -f $1/cpp/Makefile ]
 	then
@@ -40,6 +42,10 @@ function add_pattern() {
 		echo "#!/usr/bin/python" > $1/python/test.py
 		echo "#coding: utf-8" >> $1/python/test.py
 	fi
+	if [ ! -f $1/perl/test.pl ]
+	then
+		cp ./test.perl.template $1/perl/test.pl
+	fi
 	sed -i -e "/^SUBDIR/ a\\
 		$1	\\\\
 		" Makefile
@@ -62,4 +68,3 @@ else
 		fi
 	done
 fi
-
