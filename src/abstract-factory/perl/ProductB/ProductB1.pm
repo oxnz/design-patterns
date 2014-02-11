@@ -1,5 +1,5 @@
-package ProductA::ProductB1;
-use parent ProductA;
+package ProductB::ProductB1;
+use parent ProductB;
 
 use strict;
 use warnings;
