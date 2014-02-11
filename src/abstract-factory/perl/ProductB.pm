@@ -1,4 +1,4 @@
-package Product::ProductB;
+package ProductB;
 use parent Product;
 
 sub new {

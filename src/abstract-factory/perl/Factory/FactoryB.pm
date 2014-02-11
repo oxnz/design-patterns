@@ -4,8 +4,8 @@ use parent Factory;
 use strict;
 use warnings;
 
-use Product::ProductA;
-use Product::ProductB;
+use ProductA::ProductA2;
+use ProductB::ProductB2;
 
 sub new {
 	my ($class, $args) = @_;
@@ -13,11 +13,11 @@ sub new {
 }
 
 sub createProductA {
-	return Product::ProductA->new({name => "FB_A#1"});
+	return ProductA::ProductA2->new({name => "FB_A#1"});
 }
 
 sub createProductB {
-	return Product::ProductB->new({name => "FB_B#1"});
+	return ProductB::ProductB2->new({name => "FB_B#1"});
 }
 
 1;

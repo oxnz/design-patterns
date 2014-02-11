@@ -1,5 +1,8 @@
-package Product::ProductA;
-use parent Product;
+package ProductA::ProductB2;
+use parent ProductA;
+
+use strict;
+use warnings;
 
 sub new {
 	my ($class, $args) = @_;
