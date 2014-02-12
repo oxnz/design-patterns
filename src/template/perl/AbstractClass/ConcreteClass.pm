@@ -11,11 +11,11 @@ sub new {
 }
 
 sub primitiveOperation1 {
-	print "-->", (caller(0))[3], "\n";
+	print scalar((caller(0))[3]), "\n";
 }
 
 sub primitiveOperation2 {
-	print "-->", (caller(0))[3], "\n";
+	print scalar((caller(0))[3]), "\n";
 }
 
 1;
