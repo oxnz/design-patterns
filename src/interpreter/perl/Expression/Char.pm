@@ -6,7 +6,7 @@ sub new {
 	return $class->SUPER::new;
 }
 
-sub interprete {
+sub interpret {
 	my ($self, $str) = @_;
 	return uc $str;
 }

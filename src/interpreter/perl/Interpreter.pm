@@ -19,7 +19,7 @@ sub execute {
 		} else {
 			$expr = Expression::Char->new;
 		}
-		print $expr->interprete($_), " ";
+		print $expr->interpret($_), " ";
 	}
 	print "\n";
 }

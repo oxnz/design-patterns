@@ -9,7 +9,7 @@ sub new {
 	return $class->SUPER::new;
 }
 
-sub interprete {
+sub interpret {
 	my ($self, $i) = @_;
 	my $itable = {
 		0 => "ZERO",

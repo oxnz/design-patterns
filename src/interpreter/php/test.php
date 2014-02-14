@@ -1,17 +1,17 @@
 <?php
 /**
- * Package	: DesignPatterns\interpreteer
+ * Package	: DesignPatterns\interpreter
  * Author	: 0xnz
  * Last-update:	2013-10-7 12:39
  */
 class Expression {
-	function interprete($str) {
+	function interpret($str) {
 		return $str;
 	}
 }
 
 class ExpressionNum extends Expression {
-	function interprete($str) {
+	function interpret($str) {
 		switch($str) {
 		case "0": return "ZERO";
 		case "1": return "ONE";
@@ -26,7 +26,7 @@ class ExpressionNum extends Expression {
 }
 
 class ExpressionChar extends Expression {
-	function interprete($str) {
+	function interpret($str) {
 		return strtoupper($str);
 	}
 }
@@ -42,7 +42,7 @@ class Interpreter {
 			default:
 				$expression = new ExpressionChar();
 			}
-			printf("%s ", $expression->interprete($temp));
+			printf("%s ", $expression->interpret($temp));
 		}
 		printf("\n");
 	}

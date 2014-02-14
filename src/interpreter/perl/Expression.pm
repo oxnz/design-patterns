@@ -7,7 +7,7 @@ sub new {
 	return bless {}, shift;
 }
 
-sub interprete {
+sub interpret {
 	my ($self, $str) = @_;
 	return $str;
 }
