@@ -1,12 +1,12 @@
 #Design Patterns
 
-##Description
+##项目简介
 
-This is a collection of well known design patterns and some sample code how to implement them in C++, Java, Python and more(latter).
+本项目旨在通过示例代码介绍编程过程中常见的设计模式。示例代码使用的语言包括但不限于C++, Java, Python, PHP, Perl.
 
-##Progress
+##进度跟踪
 
-Pattern | Description | C++ | Java | Python | PHP | Perl
+设计模式 | 介绍 | C++ | Java | Python | PHP | Perl
 :--------:|:--------:|:-----:|:------:|:-------:|:------:|:---:
 singleton | [DONE](./src/singleton/singleton.md) | [DONE](./src/singleton/cpp) | [DONE](./src/singleton/java) | [DONE](./src/singleton/python) | [DONE](./src/singleton/php) | [DONE](./src/singleton/perl)
 proxy | [DONE](./src/proxy/proxy.md) | [DONE](./src/proxy/cpp) | [DONE](./src/proxy/java) | [DONE](./src/proxy/python) | [DONE](./src/proxy/php) | [DONE](./src/proxy/perl)
@@ -39,10 +39,12 @@ private-class-data | [TODO] | [TODO] | [TODO] | [TODO]
 <!-- [PHP](https://github.com/domnikl/DesignPatternsPHP) DONE -->
 
 
-##Contribute
+##帮助改进
 
-Please feel free to fork and extend existing or add your own examples and send a pull request with your changes!
+欢迎发送 pull request.
 
-##License
+##版权声明
 
-[The MIT License](./LICENSE)
+Copyright © 2013-2015 0xnz , All rights reserved.
+
+版权所有，禁止用于商业用途
