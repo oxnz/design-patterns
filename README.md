@@ -1,5 +1,7 @@
 #Design Patterns
 
+[![Build Status](https://travis-ci.org/oxnz/design-patterns.svg?branch=master)](https://travis-ci.org/oxnz/design-patterns)
+
 ##项目简介
 
 本项目旨在通过示例代码介绍编程过程中常见的设计模式。示例代码使用的语言包括但不限于C++, Java, Python, PHP, Perl.
