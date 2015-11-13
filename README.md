@@ -1,5 +1,7 @@
 #Design Patterns
 
+[![Join the chat at https://gitter.im/oxnz/design-patterns](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/oxnz/design-patterns?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build Status](https://travis-ci.org/oxnz/design-patterns.svg?branch=master)](https://travis-ci.org/oxnz/design-patterns)
 
 ##项目简介
