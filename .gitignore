@@ -16,3 +16,4 @@
 *.la
 *.a
 
+Cargo.lock
